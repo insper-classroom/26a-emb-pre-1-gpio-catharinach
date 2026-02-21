@@ -14,8 +14,11 @@ int main(void) {
 
         if (a > 5) {
             b = 1;
-            printf("b foi setado para: %d\n", b);
         }
+    }
+
+    if (b == 1) {
+        printf("b foi setado para: %d\n", b);
     }
 
     return 0;
